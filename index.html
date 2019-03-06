@@ -13,7 +13,7 @@
 <body>
   <div class="header">
     <img src="img/GeekoTitle.png" alt="GeekoTitle" width="500" height="125">
-    <button type="button" class="btn btn-outline-secondary col-md-12 ml-auto">RESET</button>
+    <button onclick="myFunction()" class="btn btn-outline-secondary col-md-12 ml-auto">RESET</button>
   </div>
   <section class="memory-game">
     <div class="memory-card" data-framework="GeekoWave">
@@ -26,52 +26,56 @@
     </div>
 
     <div class="memory-card" data-framework="Science">
-      <img class="front-face" src="" alt="ScienceCard" />
+      <img class="front-face" src="img/Science.png" alt="ScienceCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
     <div class="memory-card" data-framework="Science">
-      <img class="front-face" src="" alt="ScienceCard" />
+      <img class="front-face" src="img/Science.png" alt="ScienceCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
 
     <div class="memory-card" data-framework="Technology">
-      <img class="front-face" src="" alt="TechnologyCard" />
+      <img class="front-face" src="img/" alt="TechnologyCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
     <div class="memory-card" data-framework="Technology">
-      <img class="front-face" src="" alt="TechnologyCard" />
+      <img class="front-face" src="img/Technology.png" alt="TechnologyCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
 
     <div class="memory-card" data-framework="Engineering">
-      <img class="front-face" src="" alt="EngineeringCard" />
+      <img class="front-face" src="img/Engineering.png" alt="EngineeringCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
     <div class="memory-card" data-framework="Engineering">
-      <img class="front-face" src="" alt="EngineeringCard" />
+      <img class="front-face" src="img/Engineering.png" alt="EngineeringCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
 
     <div class="memory-card" data-framework="Art">
-      <img class="front-face" src="" alt="ArtCard" />
+      <img class="front-face" src="img/Art.png" alt="ArtCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
     <div class="memory-card" data-framework="Art">
-      <img class="front-face" src="" alt="ArtCard" />
+      <img class="front-face" src="img/Art.png" alt="ArtCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
 
     <div class="memory-card" data-framework="Mathmatics">
-      <img class="front-face" src="" alt="MathCard" />
+      <img class="front-face" src="img/Mathmatics.png" alt="MathCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
     <div class="memory-card" data-framework="Mathmatics">
-      <img class="front-face" src="" alt="MathCard" />
+      <img class="front-face" src="img/Mathmatics.png" alt="MathCard" />
       <img class="back-face" src="img/GeekoCard.png" alt="GeekoCard" />
     </div>
   </section>
 
-  <script src="scripts.js"></script>
+  <script src="scripts.js">
+    function myFunction() {
+      location.reload();
+    }
+  </script>
 </body>
 
 </html>
