@@ -21,7 +21,7 @@ function flipCard() {
   checkForMatch();
 }
 
-function myFunction() {
+function gameReload() {
   location.reload();
 }
 
