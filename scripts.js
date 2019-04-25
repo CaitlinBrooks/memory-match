@@ -1,5 +1,6 @@
 const cards = document.querySelectorAll('.memory-card');
 
+//let gives you the privilege to declare variables that are limited in scope to the block, statement of expression unlike var.
 let hasFlippedCard = false;
 let lockBoard = false;
 let firstCard, secondCard;
