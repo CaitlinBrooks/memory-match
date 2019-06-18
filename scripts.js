@@ -21,7 +21,7 @@ function flipCard() {
   secondCard = this;
   checkForMatch();
 }
-
+// do this one together as a group
 function gameReload() {
   location.reload();
 }
@@ -32,6 +32,7 @@ function checkForMatch() {
   isMatch ? disableCards() : unflipCards();
 }
 
+//do this one together as a group
 function disableCards() {
   firstCard.removeEventListener('click', flipCard);
   secondCard.removeEventListener('click', flipCard);
@@ -55,6 +56,7 @@ function resetBoard() {
   [firstCard, secondCard] = [null, null];
 }
 
+//do this one together as a group
 (function shuffle() {
   cards.forEach(card => {
     let randomPos = Math.floor(Math.random() * 12);
